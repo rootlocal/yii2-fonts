@@ -1,0 +1,39 @@
+{
+  "name": "rootlocal/yii2-fonts",
+  "description": "extension fonts",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "fonts",
+    "opensans"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander Zakharov",
+      "email": "sys@eml.ru"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/rootlocal/yii2-fonts/issues",
+    "source": "https://github.com/rootlocal/yii2-fonts"
+  },
+  "require": {
+    "php": ">=7.1",
+    "yiisoft/yii2": "~2.0.0",
+    "bower-asset/open-sans-fontface": "~1.4.2"
+  },
+  "require-dev": {
+  },
+  "extra": {
+  },
+  "autoload": {
+    "psr-4": {"rootlocal\\fonts\\": "src/"}
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
