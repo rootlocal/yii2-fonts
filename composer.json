@@ -18,22 +18,18 @@
     "issues": "https://github.com/rootlocal/yii2-fonts/issues",
     "source": "https://github.com/rootlocal/yii2-fonts"
   },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
   "require": {
     "php": ">=7.1",
     "yiisoft/yii2": "~2.0.0",
-    "bower-asset/open-sans-fontface": "~1.4.2"
+    "bower-asset/open-sans-fontface": "~1.4.2",
+    "bower-asset/source-sans-pro": "~1.0"
   },
- 
+  "require-dev": {
+  },
+  "extra": {
+  },
   "autoload": {
     "psr-4": {"rootlocal\\fonts\\": "src/"}
-  },
-  "config": {
-    "process-timeout": 1800,
-    "fxp-asset": {
-      "enabled": false
-    }
   },
   "repositories": [
     {
