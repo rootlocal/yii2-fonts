@@ -5,13 +5,12 @@ namespace rootlocal\fonts;
 use yii\web\AssetBundle;
 
 /**
- * Class FontsSansProAsset
+ * Class FontsSourceSansProAsset
  *
  * @author Alexander Zakharov <sys@eml.ru>
- * @created 08.08.2022 21:16
  * @package rootlocal\fonts
  */
-class FontsSansProAsset extends AssetBundle
+class FontsSourceSansProAsset extends AssetBundle
 {
     /** @var string */
     public $sourcePath = '@bower/source-sans-pro';
