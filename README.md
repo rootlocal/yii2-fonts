@@ -1,6 +1,7 @@
 yii2-fonts
 =============
-[![Latest Stable Version](https://img.shields.io/packagist/v/rootlocal/yii2-fonts.svg)](https://packagist.org/packages/rootlocal/yii2-fonts)
+[![Latest Stable Version](https://img.shields.io/packagist/v/rootlocal/yii2-fonts.svg)](https://packagist.org/packages/rootlocal/yii2-fonts)  
+
 [homepage](https://github.com/rootlocal/yii2-fonts)
 
 ## How to install?
