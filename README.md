@@ -1,12 +1,15 @@
 yii2-fonts
 =============
-
+[![Latest Stable Version](https://img.shields.io/packagist/v/rootlocal/yii2-fonts.svg)](https://packagist.org/packages/rootlocal/yii2-fonts)
 [homepage](https://github.com/rootlocal/yii2-fonts)
 
-How to install?
----------------
+## How to install?
 
-Get it via [composer](http://getcomposer.org/) by adding the package to your `composer.json`:
+~~~shell
+composer require rootlocal/yii2-fonts
+~~~
+
+or
 
 ```json
 {
@@ -23,12 +26,13 @@ Usage
 
 ```php
 <?php 
-use rootlocal\fonts\FontsOpenSansAsset;
+use rootlocal\fonts\FontsAsset;
 
 /**
 * @var \yii\web\View $this
  */
  
- FontsOpenSansAsset::register($this);
+ // register all Fonts
+ FontsAsset::register($this);
  ?>
 ```
